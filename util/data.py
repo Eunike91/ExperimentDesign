@@ -10,7 +10,7 @@ class Dataset(object):
 
         :param filename: path to training data for npz file
         """
-        self._data = np.load(filename)
+        self._data = np.load(filename, allow_pickle=True)
         self.train_data = self._data['train_data'][:, :2]
         self.test_data = self._data['test_data'].tolist()
         self._train_index = np.arange(len(self.train_data), dtype=np.uint)

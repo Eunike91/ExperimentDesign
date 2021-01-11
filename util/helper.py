@@ -86,6 +86,7 @@ OPTIMIZER = {
     'sgd': tf.train.GradientDescentOptimizer,
 }
 
+
 # Hyperparameters for various optimizers
 # learning_rate is for all
 _optimizer_args = {
