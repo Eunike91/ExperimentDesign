@@ -1,0 +1,317 @@
+[2021-01-13 20:01:46,638 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From train.py:75: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+[2021-01-13 20:01:46,638 - INFO:tensorflow]<<module>>:75: 
+
+{
+  "batch_size": 128,
+  "decay_rate": 0.9,
+  "embed_size": 40,
+  "filename": "data/citeulike-a.npz",
+  "grad_clip": 5.0,
+  "hops": 3,
+  "item_count": "16980",
+  "l2": 0.1,
+  "learning_rate": 0.001,
+  "logdir": "result/009/",
+  "max_neighbors": 311,
+  "neg_count": 4,
+  "optimizer": "rmsprop",
+  "optimizer_params": "{'momentum': 0.9, 'decay': 0.9}",
+  "pretrain": "pretrain/citeulike-a_e40.npz",
+  "save_directory": "result/009/",
+  "tol": 1e-05,
+  "user_count": "5551"
+}
+
+
+[2021-01-13 20:01:46,639 - WARNING:tensorflow]<new_func>:323: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:250: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+[2021-01-13 20:01:46,648 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:255: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+[2021-01-13 20:01:46,660 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/helper.py:23: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+[2021-01-13 20:01:46,717 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/attention.py:52: The name tf.assert_positive is deprecated. Please use tf.compat.v1.assert_positive instead.
+
+[2021-01-13 20:01:46,755 - INFO:tensorflow]<_build>:187: Creating Hop Mapping 2 with <function relu at 0x7fb28c219200>
+[2021-01-13 20:01:46,806 - INFO:tensorflow]<_build>:187: Creating Hop Mapping 3 with <function relu at 0x7fb28c219200>
+[2021-01-13 20:01:46,843 - WARNING:tensorflow]<new_func>:506: From /opt/conda/lib/python3.7/site-packages/sonnet/python/modules/basic.py:132: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+[2021-01-13 20:01:46,912 - INFO:tensorflow]<_build>:187: Creating Hop Mapping 2 with <function relu at 0x7fb28c219200>
+[2021-01-13 20:01:46,943 - INFO:tensorflow]<_build>:187: Creating Hop Mapping 3 with <function relu at 0x7fb28c219200>
+[2021-01-13 20:01:46,982 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:62: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+[2021-01-13 20:01:46,982 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:62: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+[2021-01-13 20:01:46,983 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:37: The name tf.log is deprecated. Please use tf.math.log instead.
+
+[2021-01-13 20:01:46,994 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/layers.py:220: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+[2021-01-13 20:01:47,160 - WARNING:tensorflow]<new_func>:323: From /opt/conda/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+[2021-01-13 20:01:47,647 - WARNING:tensorflow]<new_func>:506: From /opt/conda/lib/python3.7/site-packages/tensorflow_core/python/training/rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+[2021-01-13 20:01:47,760 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/cmn.py:44: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+[2021-01-13 20:01:47,762 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From /home/jovyan/DataScience/DataScienceMaster/ExperimentalDesign/ExperimentDesign/util/cmn.py:47: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+[2021-01-13 20:01:47,763 - WARNING:tensorflow]<new_func>:323: From train.py:83: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+[2021-01-13 20:01:47,919 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From train.py:85: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+[2021-01-13 20:01:47,920 - WARNING:tensorflow]<_tfmw_add_deprecation_warning>:139: From train.py:86: The name tf.GPUOptions is deprecated. Please use tf.compat.v1.GPUOptions instead.
+
+[2021-01-13 20:01:48,130 - INFO:tensorflow]<_try_run_local_init_op>:500: Running local_init_op.
+[2021-01-13 20:01:48,158 - INFO:tensorflow]<_try_run_local_init_op>:502: Done running local_init_op.
+[2021-01-13 20:01:48,959 - INFO:tensorflow]<prepare_or_wait_for_session>:737: Starting standard services.
+[2021-01-13 20:01:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:01:48,989 - INFO:tensorflow]<prepare_or_wait_for_session>:743: Starting queue runners.
+[2021-01-13 20:01:48,990 - INFO:tensorflow]<<module>>:91: Loading Pretrained Embeddings.... from pretrain/citeulike-a_e40.npz
+[2021-01-13 20:06:35,871 - INFO:tensorflow]<<module>>:120: Epoch 0: Avg Loss/Batch 0.536989            
+[2021-01-13 20:07:04,770 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.373266      NDCG@1         0.373266
+HR@5           0.738245      NDCG@5         0.569200
+HR@10          0.850477      NDCG@10        0.605850
+
+
+[2021-01-13 20:11:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:11:51,331 - INFO:tensorflow]<<module>>:120: Epoch 1: Avg Loss/Batch 0.306704            
+[2021-01-13 20:12:19,808 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.379391      NDCG@1         0.379391
+HR@5           0.751396      NDCG@5         0.577151
+HR@10          0.861647      NDCG@10        0.613293
+
+
+[2021-01-13 20:17:22,989 - INFO:tensorflow]<<module>>:120: Epoch 2: Avg Loss/Batch 0.247442            
+[2021-01-13 20:17:52,889 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.372906      NDCG@1         0.372906
+HR@5           0.750495      NDCG@5         0.574389
+HR@10          0.857503      NDCG@10        0.609299
+
+
+[2021-01-13 20:21:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:22:45,571 - INFO:tensorflow]<<module>>:120: Epoch 3: Avg Loss/Batch 0.199937            
+[2021-01-13 20:23:15,275 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.384976      NDCG@1         0.384976
+HR@5           0.762745      NDCG@5         0.587334
+HR@10          0.867772      NDCG@10        0.621585
+
+
+[2021-01-13 20:28:05,918 - INFO:tensorflow]<<module>>:120: Epoch 4: Avg Loss/Batch 0.167202            
+[2021-01-13 20:28:36,266 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.400108      NDCG@1         0.400108
+HR@5           0.773374      NDCG@5         0.601346
+HR@10          0.874257      NDCG@10        0.634451
+
+
+[2021-01-13 20:31:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:33:24,139 - INFO:tensorflow]<<module>>:120: Epoch 5: Avg Loss/Batch 0.144702            
+[2021-01-13 20:33:55,027 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.403351      NDCG@1         0.403351
+HR@5           0.776797      NDCG@5         0.604683
+HR@10          0.880022      NDCG@10        0.638360
+
+
+[2021-01-13 20:38:42,590 - INFO:tensorflow]<<module>>:120: Epoch 6: Avg Loss/Batch 0.128327            
+[2021-01-13 20:39:11,206 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.403711      NDCG@1         0.403711
+HR@5           0.784543      NDCG@5         0.608373
+HR@10          0.885246      NDCG@10        0.641094
+
+
+[2021-01-13 20:41:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:44:02,581 - INFO:tensorflow]<<module>>:120: Epoch 7: Avg Loss/Batch 0.116051            
+[2021-01-13 20:44:33,780 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.406053      NDCG@1         0.406053
+HR@5           0.781121      NDCG@5         0.608410
+HR@10          0.883985      NDCG@10        0.642047
+
+
+[2021-01-13 20:49:31,285 - INFO:tensorflow]<<module>>:120: Epoch 8: Avg Loss/Batch 0.106474            
+[2021-01-13 20:50:02,100 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.411277      NDCG@1         0.411277
+HR@5           0.785624      NDCG@5         0.614230
+HR@10          0.881823      NDCG@10        0.645589
+
+
+[2021-01-13 20:51:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 20:51:49,008 - WARNING:tensorflow]<new_func>:323: From /opt/conda/lib/python3.7/site-packages/tensorflow_core/python/training/saver.py:963: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+[2021-01-13 20:54:58,426 - INFO:tensorflow]<<module>>:120: Epoch 9: Avg Loss/Batch 0.098591            
+[2021-01-13 20:55:28,374 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.410557      NDCG@1         0.410557
+HR@5           0.784183      NDCG@5         0.613124
+HR@10          0.882364      NDCG@10        0.645019
+
+
+[2021-01-13 21:00:19,256 - INFO:tensorflow]<<module>>:120: Epoch 10: Avg Loss/Batch 0.092020            
+[2021-01-13 21:00:49,116 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.414160      NDCG@1         0.414160
+HR@5           0.790848      NDCG@5         0.618360
+HR@10          0.889029      NDCG@10        0.650343
+
+
+[2021-01-13 21:01:48,990 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:05:29,480 - INFO:tensorflow]<<module>>:120: Epoch 11: Avg Loss/Batch 0.086138            
+[2021-01-13 21:05:58,209 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.419744      NDCG@1         0.419744
+HR@5           0.792830      NDCG@5         0.622152
+HR@10          0.890650      NDCG@10        0.653928
+
+
+[2021-01-13 21:10:31,815 - INFO:tensorflow]<<module>>:120: Epoch 12: Avg Loss/Batch 0.080979            
+[2021-01-13 21:10:59,898 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.420285      NDCG@1         0.420285
+HR@5           0.794091      NDCG@5         0.621847
+HR@10          0.883985      NDCG@10        0.651249
+
+
+[2021-01-13 21:11:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:15:33,316 - INFO:tensorflow]<<module>>:120: Epoch 13: Avg Loss/Batch 0.076948            
+[2021-01-13 21:16:01,297 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.421185      NDCG@1         0.421185
+HR@5           0.796613      NDCG@5         0.624643
+HR@10          0.885606      NDCG@10        0.653748
+
+
+[2021-01-13 21:20:30,178 - INFO:tensorflow]<<module>>:120: Epoch 14: Avg Loss/Batch 0.073630            
+[2021-01-13 21:20:58,219 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.420645      NDCG@1         0.420645
+HR@5           0.797694      NDCG@5         0.625099
+HR@10          0.888308      NDCG@10        0.654609
+
+
+[2021-01-13 21:21:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:25:25,345 - INFO:tensorflow]<<module>>:120: Epoch 15: Avg Loss/Batch 0.070440            
+[2021-01-13 21:25:53,263 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.429292      NDCG@1         0.429292
+HR@5           0.795712      NDCG@5         0.627756
+HR@10          0.889209      NDCG@10        0.658326
+
+
+[2021-01-13 21:30:19,897 - INFO:tensorflow]<<module>>:120: Epoch 16: Avg Loss/Batch 0.067540            
+[2021-01-13 21:30:47,815 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.429832      NDCG@1         0.429832
+HR@5           0.797514      NDCG@5         0.628782
+HR@10          0.891911      NDCG@10        0.659571
+
+
+[2021-01-13 21:31:48,992 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:35:16,530 - INFO:tensorflow]<<module>>:120: Epoch 17: Avg Loss/Batch 0.065019            
+[2021-01-13 21:35:44,449 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.428391      NDCG@1         0.428391
+HR@5           0.795352      NDCG@5         0.627998
+HR@10          0.888128      NDCG@10        0.658246
+
+
+[2021-01-13 21:40:12,555 - INFO:tensorflow]<<module>>:120: Epoch 18: Avg Loss/Batch 0.062711            
+[2021-01-13 21:40:40,601 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.429472      NDCG@1         0.429472
+HR@5           0.799676      NDCG@5         0.630663
+HR@10          0.889750      NDCG@10        0.660031
+
+
+[2021-01-13 21:41:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:45:09,073 - INFO:tensorflow]<<module>>:120: Epoch 19: Avg Loss/Batch 0.061258            
+[2021-01-13 21:45:36,987 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.421906      NDCG@1         0.421906
+HR@5           0.796433      NDCG@5         0.624721
+HR@10          0.889750      NDCG@10        0.655261
+
+
+[2021-01-13 21:50:05,715 - INFO:tensorflow]<<module>>:120: Epoch 20: Avg Loss/Batch 0.058854            
+[2021-01-13 21:50:33,631 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.426410      NDCG@1         0.426410
+HR@5           0.798955      NDCG@5         0.629171
+HR@10          0.889389      NDCG@10        0.658690
+
+
+[2021-01-13 21:51:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 21:55:01,725 - INFO:tensorflow]<<module>>:120: Epoch 21: Avg Loss/Batch 0.057505            
+[2021-01-13 21:55:29,663 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.417943      NDCG@1         0.417943
+HR@5           0.798415      NDCG@5         0.623606
+HR@10          0.887948      NDCG@10        0.652838
+
+
+[2021-01-13 22:00:40,673 - INFO:tensorflow]<<module>>:120: Epoch 22: Avg Loss/Batch 0.055639            
+[2021-01-13 22:01:13,883 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.427851      NDCG@1         0.427851
+HR@5           0.796073      NDCG@5         0.627944
+HR@10          0.888308      NDCG@10        0.658114
+
+
+[2021-01-13 22:01:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 22:06:33,991 - INFO:tensorflow]<<module>>:120: Epoch 23: Avg Loss/Batch 0.054766            
+[2021-01-13 22:07:05,161 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.420104      NDCG@1         0.420104
+HR@5           0.796073      NDCG@5         0.623871
+HR@10          0.886147      NDCG@10        0.653220
+
+
+[2021-01-13 22:11:48,990 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 22:12:30,072 - INFO:tensorflow]<<module>>:120: Epoch 24: Avg Loss/Batch 0.053295            
+[2021-01-13 22:13:02,162 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.426049      NDCG@1         0.426049
+HR@5           0.795712      NDCG@5         0.627372
+HR@10          0.885786      NDCG@10        0.656848
+
+
+[2021-01-13 22:18:29,525 - INFO:tensorflow]<<module>>:120: Epoch 25: Avg Loss/Batch 0.052500            
+[2021-01-13 22:19:03,467 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.427671      NDCG@1         0.427671
+HR@5           0.796073      NDCG@5         0.627610
+HR@10          0.886147      NDCG@10        0.657075
+
+
+[2021-01-13 22:21:48,989 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 22:24:16,895 - INFO:tensorflow]<<module>>:120: Epoch 26: Avg Loss/Batch 0.050973            
+[2021-01-13 22:24:46,044 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.431093      NDCG@1         0.431093
+HR@5           0.798595      NDCG@5         0.630165
+HR@10          0.889930      NDCG@10        0.660016
+
+
+[2021-01-13 22:30:36,820 - INFO:tensorflow]<<module>>:120: Epoch 27: Avg Loss/Batch 0.049816            
+[2021-01-13 22:31:06,746 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.428571      NDCG@1         0.428571
+HR@5           0.801117      NDCG@5         0.631963
+HR@10          0.891551      NDCG@10        0.661318
+
+
+[2021-01-13 22:31:48,993 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 22:36:13,206 - INFO:tensorflow]<<module>>:120: Epoch 28: Avg Loss/Batch 0.048994            
+[2021-01-13 22:36:42,515 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.433796      NDCG@1         0.433796
+HR@5           0.802378      NDCG@5         0.633284
+HR@10          0.894794      NDCG@10        0.663360
+
+
+[2021-01-13 22:41:48,992 - INFO:tensorflow]<run_loop>:1117: Saving checkpoint to path result/009/model.ckpt
+[2021-01-13 22:41:52,067 - INFO:tensorflow]<<module>>:120: Epoch 29: Avg Loss/Batch 0.048624            
+[2021-01-13 22:42:22,868 - INFO:tensorflow]<evaluate_model>:64: 
+HR@1           0.426590      NDCG@1         0.426590
+HR@5           0.796974      NDCG@5         0.627939
+HR@10          0.894433      NDCG@10        0.659859
+
+
+[2021-01-13 22:42:53,968 - INFO:tensorflow]<<module>>:138: HR@1           0.426590      NDCG@1         0.426590
+HR@2           0.614304      NDCG@2         0.545024
+HR@3           0.701135      NDCG@3         0.588440
+HR@4           0.756440      NDCG@4         0.612258
+HR@5           0.796974      NDCG@5         0.627939
+HR@6           0.828680      NDCG@6         0.639233
+HR@7           0.850477      NDCG@7         0.646499
+HR@8           0.868312      NDCG@8         0.652125
+HR@9           0.883625      NDCG@9         0.656734
+HR@10          0.894433      NDCG@10        0.659859
+
+[2021-01-13 22:42:53,968 - INFO:tensorflow]<<module>>:148: Saving model...
+[2021-01-13 22:42:53,968 - WARNING:tensorflow]<new_func>:323: From train.py:151: get_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_global_step
