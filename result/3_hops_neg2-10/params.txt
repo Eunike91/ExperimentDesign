@@ -1,0 +1,1 @@
+!python /content/CollaborativeMemoryNetwork/train.py --gpu 4 --dataset /content/CollaborativeMemoryNetwork/data/citeulike-a.npz --pretrain /content/CollaborativeMemoryNetwork/pretrain/citeulike-a_e50.npz --hops 3 --neg 5
