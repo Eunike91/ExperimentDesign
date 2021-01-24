@@ -1,7 +1,7 @@
 # ExperimentDesign
 
 
-### For producing the results of the CMN paper read through (or the provided pdf: Commands used.pdf):
+### For producing the results of the CMN paper read through the commends below (or the provided pdf: Commands used.pdf):
 
 ### GitHub repositories used:
 
