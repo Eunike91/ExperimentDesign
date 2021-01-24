@@ -1,7 +1,7 @@
 # ExperimentDesign
 
 
-### For producing the results of the CMN paper read through:
+### For producing the results of the CMN paper read through (or the provided pdf):
 
 ### GitHub repositories used:
 
@@ -17,7 +17,7 @@ Used the requirement.txt file from the second GitHub repository
 
 Pre-train the data:
 Citeulike dataset: 
-python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e ```diff -X ```
+python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e -X 
 For X in [20,40,50,60,80,100]
 
 Epinions dataset:
