@@ -1,10 +1,9 @@
 # ExperimentDesign
 
-### First run the requirement.txt
 
-### For producing the results of the CMN paper read the provided pdf.
+### For producing the results of the CMN paper read through:
 
-GitHub repositories used:
+### GitHub repositories used:
 
 “Collaborative Memory Network for Recommendation Systems” (SIGIR 18): https://github.com/tebesu/CollaborativeMemoryNetwork  
 
@@ -14,11 +13,11 @@ https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation
 Python packages versions:
 Used the requirement.txt file from the second GitHub repository
 
-Commands executed: 
+### Commands executed: 
 
 Pre-train the data:
 Citeulike dataset: 
-python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e X
+python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e ```diff -X ```
 For X in [20,40,50,60,80,100]
 
 Epinions dataset:
