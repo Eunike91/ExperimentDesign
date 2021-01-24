@@ -1,7 +1,7 @@
 # ExperimentDesign
 
 
-### For producing the results of the CMN paper read through (or the provided pdf):
+### For producing the results of the CMN paper read through (or the provided pdf: Commands used.pdf):
 
 ### GitHub repositories used:
 
@@ -17,25 +17,25 @@ Used the requirement.txt file from the second GitHub repository
 
 Pre-train the data:
 Citeulike dataset: 
-python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e -X 
+python pretrain.py --gpu 0 --dataset data/citeulike-a.npz --output pretrain/citeulike-a_eX.npz –e -X \
 For X in [20,40,50,60,80,100]
 
 Epinions dataset:
-python pretrain.py --gpu 0 --dataset data/epinions.npz --output pretrain/epinions_e50.npz
+python pretrain.py --gpu 0 --dataset data/epinions.npz --output pretrain/epinions_e50.npz 
 
 
 Variation of number of hops:
-python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_e50.npz -–hops H
+python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_e50.npz -–hops H \
 For H in [1,2,3]
 
 Comparison to ItemKNN: 
 python run_SIGIR_18_CMN.py –b True –a True –p True
 
 Variation of embedding sizes:
-python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_eX.npz -–hops H –e X
+python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_eX.npz -–hops H –e X \
 For H in [1,2,3] and X in [20,40,50,60,80,100]
 
 
 Variation of number of negative samples:
-python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_e50.npz -–hops H --neg N
+python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_e50.npz -–hops H --neg N \
 For H in [1,2,3] and N in [2,3,4,5,6,7,8,9,10]
