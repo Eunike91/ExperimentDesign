@@ -30,8 +30,9 @@ Variation of number of hops:
 python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_e50.npz -–hops H \
 For H in [1,2,3]
 
-Comparison to ItemKNN: 
+Comparison to ItemKNN (note- use the git repo linked above but run it with the python sript "run_SIGIR_18_CMN.py" saved in our repo to reproduce our results, as we changed this file to just reproduce results for KNN and changed the hyper-parameters to the original ones): 
 python run_SIGIR_18_CMN.py –b True –a True –p True
+
 
 Variation of embedding sizes:
 python train.py --gpu 0 --dataset data/citeulike-a.npz --pretrain pretrain/citeulike-a_eX.npz -–hops H –e X \
