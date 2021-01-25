@@ -10,8 +10,11 @@
 “Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches” (RecSys 19):
 https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation 
 
+### Before starting installations download or create a python docker image or install a virtual environment, because you have to downgrade python packages 
+### which may lead to conflicts with other python scripts as well as your operating systems!!
+
 Python packages versions:
-Used the requirement.txt file from the second GitHub repository
+Used the requirement.txt file from the second GitHub repository. THIS will downgrade a lot of package versions, so pls make sure you run it inside a container or a virtual environment.  
 
 ### Commands executed: 
 
